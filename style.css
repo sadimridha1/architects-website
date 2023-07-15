@@ -1,10 +1,21 @@
 /* Work sans google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared styles */
+
 *{
     font-family: 'Work Sans', sans-serif;
 }
-
+.btn-primary{
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
 /* header style */
 
 header{
@@ -58,3 +69,32 @@ nav ul li a{
 .banner-description{
     color: var(--dark-03, #727272);
 }    
+
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Responsive meade queries */
+/* Mobile device */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet device */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
