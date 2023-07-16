@@ -210,6 +210,19 @@ main{
     .team-content{
         width: 305px;
     }
+
+    .facts-card-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .facts-card-container .border-card{
+        margin: 0px 28px;
+    }
+    
+    .facts-description{
+        margin: 0px 30px;
+    }
 }
 
 /* tablet device */
