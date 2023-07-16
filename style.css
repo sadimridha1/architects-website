@@ -162,6 +162,23 @@ main{
     margin: 0;
 }
 
+/* sponspors style */
+.Sponspors{
+    text-align: center;
+}
+
+.sponspors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.sponspors-img-container img{
+    width: 165px;
+}
+
 /* Responsive meade queries */
 /* Mobile device */
 
@@ -174,7 +191,8 @@ main{
         flex-direction: column;
     }
 
-    .teams-container{
+    .teams-container,
+    .sponspors-img-container{
         flex-direction: column;
     }
 
@@ -237,5 +255,15 @@ main{
 
     .team-content{
         margin-top: 48px;
+    }
+
+    .sponspors-img-container{
+        margin-top: 50px;
+        display: flex;
+        gap: 0px;
+    }    
+
+    .sponspors-img-container img{
+        width: 100px;
     }
 }
