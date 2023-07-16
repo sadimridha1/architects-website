@@ -7,7 +7,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.text-gray-color{
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+.section-paragrap{
     color: #727272;
 }
 
@@ -130,6 +135,32 @@ main{
     font-weight: 700;
 }
 
+/* facts section CSS */
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.facts-card-container .border-card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+}
+
+.facts-card-container .card-stats{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.facts-card-container .card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
 
 /* Responsive meade queries */
 /* Mobile device */
