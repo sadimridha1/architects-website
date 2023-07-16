@@ -224,6 +224,7 @@ main{
 /* sponspors style */
 .Sponspors{
     text-align: center;
+    margin-top: 70px;
 }
 
 .sponspors-img-container{
@@ -236,6 +237,19 @@ main{
 
 .sponspors-img-container img{
     width: 165px;
+}
+
+/* footer section css */
+
+
+.footer{
+    padding: 33px 121px;
+    margin-top: 80px;
+}
+.footer-content{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 /* Responsive meade queries */
@@ -307,6 +321,10 @@ main{
     .facts-description{
         margin: 0px 30px;
     }
+
+    .footer {
+        padding: 30px 34px;
+    }
 }
 
 /* tablet device */
@@ -337,5 +355,11 @@ main{
 
     .sponspors-img-container img{
         width: 100px;
+    }
+
+    /* footer css */
+
+    .footer {
+        padding: 33px 53px;
     }
 }
