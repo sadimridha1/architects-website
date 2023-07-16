@@ -135,6 +135,65 @@ main{
     font-weight: 700;
 }
 
+/* feature section CSS */
+
+.features{
+    margin-top: 70px;
+    display: flex;
+    gap: 58px;
+}
+
+.features .feature-title-section{
+    font-size: 40px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card{
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img img{
+    width: 600px;
+    height: 90%;
+    margin-left: 50px;
+}
+
+.ten-years-bage{
+    background-color: #FF900E;
+    width: 240px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+}
+
+.ten-years-bage h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.ten-years-bage p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+.features .feature-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
 /* facts section CSS */
 
 .facts-card-container{
@@ -192,7 +251,9 @@ main{
     }
 
     .teams-container,
-    .sponspors-img-container{
+    .sponspors-img-container,
+    .features 
+    {
         flex-direction: column;
     }
 
@@ -219,6 +280,11 @@ main{
 
     .team-image img {
         width: 324px;
+    }
+
+    .feature-img img{
+        width: 100%;
+        margin-left: 0;
     }
 
     .banner img{
@@ -249,12 +315,18 @@ main{
     header{
         padding: 50px;
     }
-    nav, .teams-container{
+    nav, .teams-container,
+    .features {
         flex-direction: column;
     }
 
     .team-content{
         margin-top: 48px;
+    }
+
+    .feature-img img{
+        width: 90%;
+        margin-left: 38px;
     }
 
     .sponspors-img-container{
